@@ -1,0 +1,158 @@
+[
+    [
+        {
+            "question":"Which among the following is not a type of printer?",
+            "options": ["LCD Printer","Laser Printer","Inkjet Printer","Electro Thermal Printer"],
+            "answer": "LCD Printer"
+        },
+        {
+            "question":"The computer malware that disguises users by representing itself as legitimate software/program is known as …",
+            "options": ["Virus","Worms","Trojans","Spyware"],
+            "answer": "Trojans"
+        },
+        {
+            "question":"Which among the following controls all parts of the computer and known as the brain of computer?",
+            "options": ["RAM","ROM","CPU","Processor"],
+            "answer": "CPU"
+        },
+        {
+            "question":"If the operating system of a computer stop working while working on this, usually what does a user do?",
+            "options": ["Leave it","Restart it","Format it","Throw it"],
+            "answer": "Restart it"
+        },
+        {
+            "question":"The Second Generation Computer used …",
+            "options": ["Transistors","Integrated circuit","Vacuum tube","Chip"],
+            "answer": "Transistors"
+        },
+        {
+            "question":"If you need to cut the contents of MS Word, which command will you give?",
+            "options": ["Ctrl + X","Ctrl + C","Ctrl + V","Ctrl + Z"],
+            "answer": "Ctrl + X"
+        },
+        {
+            "question":"Who among the following has designed the JavaScript programing language?",
+            "options": ["Rasmus Lerdorf","Guido van Rossum","Brendan Eich","James Gosling"],
+            "answer": "Brendan Eich"
+        },
+        {
+            "question":"Which among the following is the shortcut key to save word file in your computer system?",
+            "options": ["F8","F12","F10","Ctrl + Alt + 0"],
+            "answer": "F12"
+        },
+        {
+            "question":"Which among the following is the shortcut key to open a new window?",
+            "options": ["Shift + N","Ctrl + N","Alt + N","Alt + F5"],
+            "answer": "Ctrl + N"
+        },
+        {
+            "question":"The ‘P’ in CPU stands for …",
+            "options": ["Process","Program","Performance","Plan"],
+            "answer": "Process"
+        }
+    ],
+    [
+        {
+            "question":"In order traversal of binary search tree will produce ___________",
+            "options": ["unsorted list","reverse of input","sorted list","none of the above"],
+            "answer": "sorted list"
+        },
+        {
+            "question":"Which one of the below mentioned is linear data structure __________",
+            "options": ["Queue","Stack","Arrays","All of the above"],
+            "answer": "All of the above"
+        },
+        {
+            "question":"Quick sort algorithm is an example of",
+            "options": ["Greedy approach","Improved binary search","Dynamic Programming","Divide and conquer"],
+            "answer": "Divide and conquer"
+        },
+        {
+            "question":"What could be the worst case height of an AVL tree?",
+            "options": ["0.97 log n","2.13 log n","1.44 log n","n2 log n"],
+            "answer": "1.44 log n"
+        },
+        {
+            "question":"Time complexity of Depth First Traversal of is",
+            "options": ["Θ(|V|+|E|)","Θ(|V|)","Θ(|E|)","Θ(|V|*|E|)"],
+            "answer": "Θ(|V|+|E|)"
+        },
+        {
+            "question":"In context with time-complexity, find the odd out _________",
+            "options": ["Deletion from Linked List","Searching in Hash Table","Adding edge in Adjacency Matrix","Heapify a Binary Heap"],
+            "answer": "Heapify a Binary Heap"
+        },
+        {
+            "question":"node.next -> node.next.next; will make",
+            "options": ["node.next inaccessible","node.next.next inaccessible","this node inaccessible","none of the above"],
+            "answer": "node.next inaccessible"
+        },
+        {
+            "question":"If there's no base criteria in a recursive program, the program will",
+            "options": ["not be executed","execute until all conditions match","execute infinitely","obtain progressive approach"],
+            "answer": "execute infinitely"
+        },
+        {
+            "question":"If locality is a concern, you can use _______ to traverse the graph.",
+            "options": ["Breadth First Search","Depth First Search","Either BFS or DFS","None of the above!"],
+            "answer": "Depth First Search"
+        },
+        {
+            "question":"The worst case complexity of binary search matches with __________",
+            "options": ["interpolation search","linear search","merge sort","none of the above"],
+            "answer": "linear search"
+        }
+    ],
+    [
+        {
+            "question": "Consider the following schema: STUDENTS(student_code, first_name, last_name, email, phone_no, date_of_birth, honours_subject, percentage_of_marks); Which of the following query would display all the students with honours_subject ‘Eng01’?",
+            "options": ["select student_code, first_name, last_name from students where honours_subject = ‘Eng01’;","select student_code, first_name, last_name from students where honours_subject is ‘Eng01’;","select student_code, first_name, last_name where honours_subject = ‘Eng01’ from students;","select student_code, first_name, last_name from students;"],
+            "answer" : "select student_code, first_name, last_name from students where honours_subject = ‘Eng01’;"
+        },
+        {
+            "question": "What is returned by TRUNC(789.8389, 2)",
+            "options": ["789.84","789.83","78","789.00"],
+            "answer": "789.83"
+        },
+        {
+            "question": "Which of the following is not true about the COALESCE function?",
+            "options" : ["It takes multiple alternate values","It returns the first non-null expression in the parameter list","It returns the first value in the parameter list if it is null","None of the above"],
+            "answer": "It returns the first value in the parameter list if it is null"
+        },
+        {
+            "question": "Which of the following is not true about the MAX and MIN functions?",
+            "options" : ["Both can be used for any data type.","MAX returns the maximum value.","MIN returns the minimum value.","All are true."],
+            "answer": "All are true."
+        },
+        {
+            "question":"Which of the following is not true about a subquery?",
+            "options" : ["A subquery is a SELECT statement embedded in a clause of another SELECT statement.","The subquery executes before the main query.","The result of the main query is returned to the subquery.","All of the above."],
+            "answer": "The result of the main query is returned to the subquery."
+        },
+        {
+            "question":"In which of the following cases a DML statement is not executed?",
+            "options" : ["When existing rows are modified","When some rows are deleted","When a table is deleted","All of the above"],
+            "answer": "When a table is deleted"
+        },
+        {
+            "question":"A transaction starts when",
+            "options" : ["A COMMIT statement is issued","A ROLLBACK statement is issued","A CREATE statement is used","All of the above"],
+            "answer": "All of the above"
+        },
+        {
+            "question":"Which of the following is not true about a FOREIGN KEY constraint?",
+            "options" : ["It is a referential integrity constraint.","It establishes a relationship between a primary key or a unique key in the same table or a different table.","A foreign key value cannot be null.","A foreign key value must match an existing value in the parent table."],
+            "answer": "A foreign key value cannot be null."
+        },
+        {
+            "question":"Which of the following code will retrieve data from the view all_marks_english, created in the previous question?",
+            "options" : ["select view all_marks_english;","select from all_marks_english;","retrieve from all_marks_english;","select * from all_marks_english;"],
+            "answer": "select * from all_marks_english;"
+        },
+        {
+            "question":"Which of the following is a system privilege?",
+            "options" : ["Creating new users","Removing users","Removing tables","All of the above."],
+            "answer": "All of the above."
+        }
+    ]
+]

@@ -1,0 +1,17 @@
+doctype html
+html
+    head
+        link(rel='stylesheet', href='style.css')
+        script(type='text/javascript' src='questions&answers.json')
+        script(type='text/javascript' src='app.js')
+        title Quiz App
+    body
+        div.container
+            h1 Online Quiz
+            h3#pagename= intro
+            form(action=getaction,name = "questionform",method=getmethod,id="myForm")
+                p#instruction=getinstruction 
+                ol#questions-list
+                input#btn(type="submit",value=getvalue)
+            
+    
